@@ -19,6 +19,10 @@ then install all dependencies
 
 `npm install @types/express -D`
 
+`npm i nodemon`
+
+`npm install --save-dev nodemon`
+
 
 npm command 
 
@@ -71,3 +75,8 @@ step 4
 
 `npm run start`
 
+stpe 5
+
+you can open browser and paste 
+
+http://localhost:3001/employee/
