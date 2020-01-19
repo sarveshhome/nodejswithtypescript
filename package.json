@@ -1,0 +1,36 @@
+{
+  "name": "nodejswithtypescript",
+  "version": "1.0.0",
+  "description": "nodejs use rest api with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "tsc && node dist/app.ts",
+    "prod": "tsc && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarveshhome/nodejswithtypescript.git"
+  },
+  "keywords": [
+    "node.js",
+    "typescript",
+    "REST",
+    "API"
+  ],
+  "author": "sarvesh.mca@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarveshhome/nodejswithtypescript/issues"
+  },
+  "homepage": "https://github.com/sarveshhome/nodejswithtypescript#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
